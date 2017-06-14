@@ -551,10 +551,12 @@ public class MavenCli
         // else fall back to default log level specified in conf
         // see https://issues.apache.org/jira/browse/MNG-2570
 
+        /*
         if ( cliRequest.commandLine.hasOption( CLIManager.BATCH_MODE ) )
         {
             MessageUtils.setColorEnabled( false );
         }
+        */
 
         if ( cliRequest.commandLine.hasOption( CLIManager.LOG_FILE ) )
         {
